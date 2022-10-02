@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Kaushan+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sem serifa;
+    font-size: 20px;
+    
+}
+body{
+    background-color: black;
+}
+.text{
+    text-indent: 30px;
+    text-align: justify;
+    color: white;
+}
+.card{
+    background-color: #acacb9;
+    border: solid 6px #20235c;
+
+}
+
+
+.historia{
+    font-family: 'Roboto Condensed', sem serifa;
+    text-align: justify;
+    text-align: center;
+    color: white;
+    border-bottom: solid 2px rgb(255, 255, 255);
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.card-text{
+    text-align: justify;
+    text-indent: 20px;
+    font-family: 'Kaushan Script', cursive;
+}
+.card-body:hover{  
+    background-color:#010326;
+    list-style-type:none;
+    display: inline-block;
+    transition: 0.8s all;
+    cursor: pointer;
+    color: whitesmoke}
+.absolute{
+    position: absolute;
+    bottom: 25px;
+    left: 7.4%;
+    right:20%;
+    color: rgb(255, 255, 255);
+}
+.absolute h2{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+.absolute h6{
+    color: rgb(255, 255, 255);
+    font-size:18px;
+}
+
+.header{
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-item a{
+    font-family: 'Kaushan Script', cursive;
+
+}
+.nav-item:hover{
+    background-color:red;
+    list-style-type:none;
+    transition: 0.8s all;
+    cursor: pointer;
+    color: whitesmoke
+}
